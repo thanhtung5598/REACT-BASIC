@@ -3,7 +3,9 @@ import TodoItem from './components/TodoItem'
 function App() {
   return (
     <div className="App">
-        <TodoItem />      
+        <TodoItem title="Đá bóng" />      
+        <TodoItem title="Cầu long" />      
+        <TodoItem title="Bóng chuyền" />      
     </div>
   );
 }
