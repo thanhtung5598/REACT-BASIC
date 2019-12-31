@@ -1,13 +1,19 @@
-import React from 'react';
+import React, { Component } from 'react';
 import TodoItem from './components/TodoItem'
-function App() {
-  return (
-    <div className="App">
-        <TodoItem title="Đá bóng" />      
-        <TodoItem title="Cầu long" />      
-        <TodoItem title="Bóng chuyền" />      
-    </div>
-  );
-}
 
-export default App;
+export default class App extends Component {
+  constructor() {
+    super();
+    this.todoItems = ["đá banh", "đá cầu", "cầu long"]
+  }
+
+  render() {
+    return (
+      <div className="TodoItem">
+        {
+          this.todoItems.map((item,index)=><TodoItem key={index} title={item} />)
+        }
+      </div>
+    )
+  }
+}
