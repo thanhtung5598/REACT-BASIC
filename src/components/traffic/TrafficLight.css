@@ -1,0 +1,27 @@
+.TrafficLight{
+    width: 500px;
+    height: 500px;
+}
+.buld{
+    width: 100px;
+    height: 100px;
+    margin: 10px 10px;
+    border-radius: 50%;
+}
+
+.TrafficLight .red{
+    background-color: red;
+    opacity: .3;
+}
+.TrafficLight .orange{
+    background-color: orange;
+    opacity: .3;
+}
+.TrafficLight .green{
+    background-color: green;
+    opacity: .3;
+}
+
+.TrafficLight .buld.active{
+    opacity: 1;
+}
