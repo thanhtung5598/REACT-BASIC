@@ -1,7 +1,45 @@
 .TodoItems{
-    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 300;
     font-size: 20px;
     color: #555;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    border: 1px solid;
+}
+
+.TodoItems .TodoItem{
+    border-bottom: 1px solid black
+}
+.TodoItems .TodoItem:last-child{
+    border: none;
+}
+.TodoItems .Header{
+    display: flex;
+    border-bottom: 1px solid;
+}
+.TodoItems .Header input{
+    border: none;
+    padding: 10px;
+    width: 100%;
+    font-size: 20px;
+}
+.TodoItems img{
+    margin: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+.TodoItems img:hover{
+    background-color: cyan;
+}
+
+.TodoItems p,input{
+    margin-left: 10px;
+}
+
+.TodoItems .Header input:focus{
+    outline: none;
 }
