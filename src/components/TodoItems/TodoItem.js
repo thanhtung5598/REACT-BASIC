@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
+import './TodoItem.css'
 
 export default class TodoItem extends Component {
     render() {
-        const { item } = this.props;
-
+        const { item,onClick } = this.props;
         return (
-            <div className={item.isComplete ? "TodoItem TodoItem-copleted" : "TodoItem"}>
+            <div onClick={onClick} className={item.isComplete===true ? "TodoItem TodoItem-isComplete" : "TodoItem"}>
                 <p>{item.title}</p>
             </div>
         )
