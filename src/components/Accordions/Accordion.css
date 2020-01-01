@@ -1,0 +1,12 @@
+.Accordion{
+    width: 200px;
+    height: 300px;
+}
+.Accordion .page-header{
+    width: 100px;
+    background-color: blanchedalmond;
+}
+
+.Accordion .page-Content{
+    background-color: blue;
+}
