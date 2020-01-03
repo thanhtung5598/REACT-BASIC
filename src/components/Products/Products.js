@@ -8,59 +8,57 @@ export default class Products extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            Products: [
-                {
-                    "id": 1,
-                    "name": "Tuna - Salad Premix",
-                    "imageURL": "http://dummyimage.com/300x200.bmp/cc0000/ffffff",
-                    "description": "error: undefined method `/' for nil:NilClass"
-                }, {
-                    "id": 2,
-                    "name": "Bread - Hamburger Buns",
-                    "imageURL": "http://dummyimage.com/300x200.png/5fa2dd/ffffff",
-                    "description": "error: undefined method `/' for nil:NilClass"
-                }, {
-                    "id": 3,
-                    "name": "Oysters - Smoked",
-                    "imageURL": "http://dummyimage.com/300x200.jpg/ff4444/ffffff",
-                    "description": "error: undefined method `/' for nil:NilClass"
-                }, {
-                    "id": 4,
-                    "name": "Milk 2% 500 Ml",
-                    "imageURL": "http://dummyimage.com/300x200.bmp/dddddd/000000",
-                    "description": "error: undefined method `/' for nil:NilClass"
-                }, {
-                    "id": 5,
-                    "name": "Salsify, Organic",
-                    "imageURL": "http://dummyimage.com/300x200.bmp/ff4444/ffffff",
-                    "description": "error: undefined method `/' for nil:NilClass"
-                }, {
-                    "id": 6,
-                    "name": "Syrup - Monin - Passion Fruit",
-                    "imageURL": "http://dummyimage.com/300x200.bmp/dddddd/000000",
-                    "description": "error: undefined method `/' for nil:NilClass"
-                }, {
-                    "id": 7,
-                    "name": "Pepper Squash",
-                    "imageURL": "http://dummyimage.com/300x200.png/ff4444/ffffff",
-                    "description": "error: undefined method `/' for nil:NilClass"
-                }, {
-                    "id": 8,
-                    "name": "Chocolate - Milk",
-                    "imageURL": "http://dummyimage.com/300x200.jpg/cc0000/ffffff",
-                    "description": "error: undefined method `/' for nil:NilClass"
-                }, {
-                    "id": 9,
-                    "name": "Foam Cup 6 Oz",
-                    "imageURL": "http://dummyimage.com/300x200.bmp/cc0000/ffffff",
-                    "description": "error: undefined method `/' for nil:NilClass"
-                }, {
-                    "id": 10,
-                    "name": "Beef - Tenderloin",
-                    "imageURL": "http://dummyimage.com/300x200.png/ff4444/ffffff",
-                    "description": "error: undefined method `/' for nil:NilClass"
-                }
-            ]
+            Products:[{
+                "id": 1,
+                "name": "Cookie Dough - Chocolate Chip",
+                "imageURL": "https://loremflickr.com/300/200",
+                "description": "error: undefined method `/' for nil:NilClass"
+              }, {
+                "id": 2,
+                "name": "Veal - Leg, Provimi - 50 Lb Max",
+                "imageURL": "https://loremflickr.com/300/200",
+                "description": "error: undefined method `/' for nil:NilClass"
+              }, {
+                "id": 3,
+                "name": "Meldea Green Tea Liquor",
+                "imageURL": "https://loremflickr.com/300/200",
+                "description": "error: undefined method `/' for nil:NilClass"
+              }, {
+                "id": 4,
+                "name": "Versatainer Nc - 8288",
+                "imageURL": "https://loremflickr.com/300/200",
+                "description": "error: undefined method `/' for nil:NilClass"
+              }, {
+                "id": 5,
+                "name": "Scallops - In Shell",
+                "imageURL": "https://loremflickr.com/300/200",
+                "description": "error: undefined method `/' for nil:NilClass"
+              }, {
+                "id": 6,
+                "name": "Cinnamon - Ground",
+                "imageURL": "https://loremflickr.com/300/200",
+                "description": "error: undefined method `/' for nil:NilClass"
+              }, {
+                "id": 7,
+                "name": "Cocoa Butter",
+                "imageURL": "https://loremflickr.com/300/200",
+                "description": "error: undefined method `/' for nil:NilClass"
+              }, {
+                "id": 8,
+                "name": "Oil - Avocado",
+                "imageURL": "https://loremflickr.com/300/200",
+                "description": "error: undefined method `/' for nil:NilClass"
+              }, {
+                "id": 9,
+                "name": "Cheese - Cambozola",
+                "imageURL": "https://loremflickr.com/300/200",
+                "description": "error: undefined method `/' for nil:NilClass"
+              }, {
+                "id": 10,
+                "name": "Apricots Fresh",
+                "imageURL": "https://loremflickr.com/300/200",
+                "description": "error: undefined method `/' for nil:NilClass"
+              }]
         }
     }
     render() {
